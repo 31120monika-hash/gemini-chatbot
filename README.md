@@ -18,39 +18,6 @@ A simple Streamlit chatbot using LangChain for conversation memory and the Googl
 - `.env.example` — example environment variables
 - `.gitignore` — ignores Python caches and `.env`
 
-## Setup
-
-1. Create and activate a Python virtual environment:
-
-   ```bash
-   python -m venv .venv
-   .\.venv\Scripts\activate
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Create a `.env` file:
-
-   ```bash
-   copy .env.example .env
-   ```
-
-4. Open `.env` and set your Gemini API key:
-
-   ```text
-   GEMINI_API_KEY=your_real_gemini_api_key
-   ```
-
-5. Run the Streamlit app:
-
-   ```bash
-   streamlit run app.py
-   ```
-
 ## Usage
 
 - Type a question into the input field.
@@ -62,3 +29,9 @@ A simple Streamlit chatbot using LangChain for conversation memory and the Googl
 - If you need a different Gemini model, update `GEMINI_MODEL` in `.env`.
 - Keep your `.env` file private and do not commit it to version control.
 "# gemini-chatbot" 
+
+## Troubleshooting
+
+### Model Not Found Error
+You may encounter:
+
